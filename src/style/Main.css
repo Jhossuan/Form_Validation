@@ -1,0 +1,32 @@
+.Main {
+  padding: 20px;
+}
+
+.Main .btn-close {
+  padding: 10px;
+  background: #ff2727;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 0 20px 0;
+}
+
+.Main .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.Main .container .card {
+  background: grey;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.Main .container .card h2 {
+  color: white;
+}
+/*# sourceMappingURL=Main.css.map */
